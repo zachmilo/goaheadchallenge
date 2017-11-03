@@ -1,0 +1,29 @@
+.card{
+  height: 100%;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+body {
+  background-color:rgba(50, 115, 220, 0.42);
+}
+
+.footer {
+  background-color:#dbdbdb;
+}
+
+.sortDropDown {
+  padding-top: 1rem;
+  margin-left: 10rem;
+} 
+
+div.dropdown-trigger > .button {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.fa {
+  text-align: center;
+}
+.purchaseButton {
+  height: 3.25em;
+}
