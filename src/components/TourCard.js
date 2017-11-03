@@ -11,14 +11,18 @@ class TourCard extends Component {
     name: PropTypes.string,
     length: PropTypes.number,
     averageOverallRating: PropTypes.number,
-    buttonName: PropTypes.string
+    totalReviews:PropTypes.number,
+    shortDescription: PropTypes.string,
+    buttonName: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
     };
-  static propTypes = {
+  static dedaultProps = {
     url: 'http://via.placeholder.com/350x150',
     caption:'place holder',
     name: 'Image title',
     length: 1,
     averageOverallRating: 5,
+    totalReviews: 456,
+    shortDescription: 'A Short Description',
     buttonName: 'Purchase'
   };
 
